@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construye tu Paquete Fotográfico</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="precios" class="seccion-precios">
+    <div class="contenedor-paquete">
+      <!-- Bloque Construye tu propio paquete -->
+      <div class="bloque bloque-titulo">
+        <h2>CONSTRUYE TU PROPIO PAQUETE</h2>
+        <p class="etiqueta">HORAS TOTALES</p>
+        <div class="contenedor-horas">
+          <div class="selector-disco">
+            <span class="numero-horas">3</span>
+          </div>
+          <div class="barra-progreso">
+            <div class="progreso"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bloque Sesión de Compromiso -->
+      <div class="bloque bloque-compromiso">
+        <p class="etiqueta">SESIÓN DE COMPROMISO</p>
+        
+        <!-- Checkbox oculto para Compromiso -->
+        <input type="checkbox" id="toggle-compromiso" class="toggle-checkbox">
+        
+        <!-- Label como interruptor (vinculado al checkbox) -->
+        <label for="toggle-compromiso" class="interruptor"></label>
+        
+        <!-- Elemento para mostrar el estado con contenido basado en CSS -->
+        <div class="toggle-estado">
+          <span class="estado-no">NO</span>
+          <span class="estado-si">SI</span>
+        </div>
+      </div>
+
+      <!-- Bloque Video de la Ceremonia -->
+      <div class="bloque bloque-video">
+        <p class="etiqueta">VIDEO DE LA CEREMONIA</p>
+        
+        <!-- Checkbox oculto para Video -->
+        <input type="checkbox" id="toggle-video" class="toggle-checkbox">
+        
+        <!-- Label como interruptor (vinculado al checkbox) -->
+        <label for="toggle-video" class="interruptor"></label>
+        
+        <!-- Elemento para mostrar el estado con contenido basado en CSS -->
+        <div class="toggle-estado">
+          <span class="estado-no">NO</span>
+          <span class="estado-si">SI</span>
+        </div>
+      </div>
+
+      <!-- Bloque Solo Digital -->
+      <div class="bloque bloque-formato">
+        <p class="etiqueta">SOLO DIGITAL</p>
+        <div class="icono-formato">
+          <div class="circulo-interno"></div>
+        </div>
+        <span class="formato-secundario">FILM + DIGITAL</span>
+      </div>
+
+      <!-- Bloque Cabina de Fotos -->
+      <div class="bloque bloque-cabina">
+        <p class="etiqueta">CABINA DE FOTOS</p>
+        <div class="opciones-cabina">
+          <div class="opcion-cabina"></div>
+          <div class="opcion-cabina activa"></div>
+          <div class="opcion-cabina"></div>
+        </div>
+        <p class="texto-horas">HORAS</p>
+      </div>
+
+      <!-- Bloque Mapa -->
+      <div class="bloque bloque-mapa">
+        <p class="etiqueta">LUGAR</p>
+        <p class="texto-region">Selecciona una región</p>
+        <div class="imagen-mapa"></div>
+      </div>
+
+      <!-- Bloque Total y Envío -->
+      <div class="bloque bloque-total">
+        <div class="seccion-total">
+          <p class="etiqueta-total">TOTAL</p>
+          <span class="valor-total">$1,938</span>
+        </div>
+        <div class="seccion-envio">
+          <p class="etiqueta">ENVÍA MI PAQUETE</p>
+          <input type="email" placeholder="Email" class="campo-correo">
+          <button class="boton-enviar">ENVIAR</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
